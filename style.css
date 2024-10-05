@@ -1,0 +1,69 @@
+body{
+    background-color: orange;
+}
+.log{
+    width:100px;
+    height:100px;
+    float:left;
+}
+.shapka{
+    background-color:orange;
+}
+h2{
+    background-color: green;
+    font-size: 30px;
+    width: 100%;
+}
+
+nav a{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: black;
+}
+
+.content{
+    background-color: orange;
+}
+table {
+    font-size: 20px;
+    background-color: red;
+    width: 100%;
+}
+
+th{
+    background-color: orange;
+}
+tr:nth-child(even){
+    background-color: dodgerblue;
+}
+tr:nth-child(odd){
+    background-color: darkviolet;
+}
+footer{
+    background-color: red;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: white;
+    }
+    header {
+        font-size: 30px;
+        background-color:orange;
+    }
+    nav{
+        max-width: 15%;
+    }
+    .content{
+        width: 45%;
+        font-size: 30px;
+    }
+    table{
+        font-size: 35px;
+        width: 45%;
+    }
+}
